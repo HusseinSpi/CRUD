@@ -6,6 +6,7 @@ import "./LoginPage.css";
 import { MyAccount } from "../../Components/Account/MyAccount";
 import { getUserName } from "../../Hooks/GetUserName";
 import { useAccount } from "../../Context/Account";
+import { ToastContainer } from "react-toastify";
 
 export const LoginPage = () => {
   const {
@@ -53,6 +54,7 @@ export const LoginPage = () => {
 
   return (
     <div className="container">
+      <ToastContainer position="top-center" />
       {isLogIn ? (
         <MyAccount userName={userName} isLogIn={isLogIn} />
       ) : (
