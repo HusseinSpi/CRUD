@@ -1,15 +1,5 @@
 import "./Product.css";
-export const Product = () => {
-  const book = {
-    price: 10.99,
-    name: "Sirens & Muses",
-    avatar:
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635699132i/59336344.jpg",
-    desc: "Sirens & Muses explores the intertwined lives of four art students at an elite university, delving into themes of creativity, ambition, and the complexities of personal relationships.",
-    comments: [],
-    id: 1,
-  };
-
+export const Product = ( {book} ) => {
   return (
     <div className="container">
       <div>
