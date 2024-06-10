@@ -53,7 +53,7 @@ export const LoginPage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="containerLogin">
       <ToastContainer position="top-center" />
       {isLogIn ? (
         <MyAccount userName={userName} isLogIn={isLogIn} />

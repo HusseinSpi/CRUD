@@ -1,9 +1,9 @@
 import "./Product.css";
-export const Product = ( {book} ) => {
+export const Product = ({ book }) => {
   return (
     <div className="container">
       <div>
-        <img src={book.avatar}></img>
+        <img className="img-product" src={book.avatar}></img>
         <p className="desc">{book.desc}</p>
         <h1>Comments:{book.comments}</h1>
       </div>
