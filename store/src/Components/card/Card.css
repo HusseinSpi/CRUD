@@ -3,10 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 80px;
+  gap: 100px;
 }
 .book-card {
-  width: 17.5%;
+  width: 18%;
   max-height: 25%;
   background: #b5c18e;
 
