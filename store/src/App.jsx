@@ -7,7 +7,6 @@ import { Product } from "./Pages/Product/Product";
 import { Favorite } from "./Pages/Favorite/Favorite";
 import { NoMatch } from "./Pages/NoMatch/NoMatch";
 import { Login } from "./Pages/Login/Login";
-import { Navbar } from "./Components/Navbar/Navbar";
 
 const routes = [
   {
