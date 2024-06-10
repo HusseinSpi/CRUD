@@ -1,0 +1,37 @@
+.books-container {
+  background-color: #f7dcb9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.book-card {
+  width: 18%;
+  max-height: 25%;
+  background: #b5c18e;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+.title-price {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 23px;
+  text-align: center;
+}
+.title-price p {
+  margin-top: -5px;
+  font-weight: bold;
+  font-size: 27px;
+}
+.book-description {
+  font-size: 24px;
+  padding: 0 20px;
+  margin-top: -10px;
+}
