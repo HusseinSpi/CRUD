@@ -3,14 +3,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
 }
 .book-card {
   width: 18%;
-  max-height: 25%;
+  max-height: 15%;
   background: #b5c18e;
-
+  padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .book-image {
@@ -31,7 +32,7 @@
   font-size: 27px;
 }
 .book-description {
-  font-size: 24px;
+  font-size: 18px;
   padding: 0 20px;
   margin-top: -10px;
 }
